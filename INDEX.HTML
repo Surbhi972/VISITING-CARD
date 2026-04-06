@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vijay Kumar | Digital Card</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f2d3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 340px;
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.actions {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.call { background: #28a745; }
+.whatsapp { background: #25D366; }
+.email { background: #007bff; }
+.website { background: #6c757d; }
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <!-- Replace with your uploaded image name -->
+  <img src="card.png" alt="Visiting Card">
+
+  <div class="actions">
+    <a href="tel:+919876326206" class="btn call">📞 Call</a>
+    <a href="https://wa.me/919876326206" class="btn whatsapp">💬 WhatsApp</a>
+    <a href="mailto:vkumar@appinfoinc.com" class="btn email">✉️ Email</a>
+    <a href="https://www.appinfoinc.com" target="_blank" class="btn website">🌐 Website</a>
+  </div>
+</div>
+
+</body>
+</html>
